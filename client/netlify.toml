@@ -1,4 +1,4 @@
 [[redirects]]
-  from = "/"
+  from = "/*"
   to = "/cherrycode/cherrycode.html"
   status = 301
