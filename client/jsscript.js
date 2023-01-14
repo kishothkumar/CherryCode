@@ -1,8 +1,6 @@
 const signUpLink = document.querySelector('.signup-link');
 const signInLink = document.querySelector('.signin-link');
 const wrapper = document.querySelector('.wrapper');
-import dotenv from 'dotenv'
-dotenv.config()
 
 signUpLink.addEventListener('click', () => {
     wrapper.classList.toggle('active');
@@ -21,7 +19,7 @@ import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword } f
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: process.env.FIREBASE_API_KEY,
+  apiKey: "AIzaSyBduN6XPKqN97gwG9XVTWXeuGaW1VmsGHw",
   authDomain: "cherrycode-login.firebaseapp.com",
   databaseURL: "https://cherrycode-login-default-rtdb.firebaseio.com",
   projectId: "cherrycode-login",

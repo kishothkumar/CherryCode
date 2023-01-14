@@ -1,9 +1,7 @@
-import dotenv from 'dotenv'
-dotenv.config()
 
 // Initialize Firebase
 firebase.initializeApp({
-      apiKey: process.env.FIREBASE_API_KEY,
+      apiKey: "AIzaSyBduN6XPKqN97gwG9XVTWXeuGaW1VmsGHw",
       authDomain: "cherrycode-login.firebaseapp.com",
       databaseURL: "https://cherrycode-login-default-rtdb.firebaseio.com",
       projectId: "cherrycode-login",
