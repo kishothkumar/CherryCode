@@ -80,7 +80,7 @@ const auth = getAuth();
             last_login : dt,
         })
         document.getElementById("formsignin").reset();
-        window.location.replace('./cherrycode/cherrycode.html');
+        window.location.href = "./cherrycode/cherrycode.html";
         alert('Log in successful!');
         // ...
     })
